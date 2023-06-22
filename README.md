@@ -1,9 +1,7 @@
-<div align="center">&nbsp;</div>
+<img align="center" src="images/Pages_Indexing_in_Progress__1.png" alt="Приложение «PrettySearchEngine» в процессе работы">
 
-<img align="center" width="" height="" src="images/Pages_Indexing_in_Progress__1.png" alt="Приложение «PrettySearchEngine» в процессе работы">
-
-<h2 align="center">PrettySearchEngine</h2>
-<h4 align="center">Локальный поисковый движок, позволяющий индексировать веб-сайты</h4>
+<h1 align="center">PrettySearchEngine</h1>
+<h3 align="center">Локальный поисковый движок, позволяющий индексировать веб-сайты</h3>
 <div align="center">&nbsp;</div>
 
 ![Static Badge](https://img.shields.io/badge/:PRETTY_SEARCH_ENGINE-SITE_SEARCH-blue)
@@ -22,7 +20,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-<h3 align="left">Возможности:</h3>
+### Возможности:
 * Парсинг и индексирование страниц веб-сайтов
 * Извлечение лемм (lemma, ключ — начальная, словарная форма слова) из проиндексированных веб-страниц
 * Подсчёт вхождений найденных лемм
@@ -30,7 +28,7 @@
 * Создание сниппетов (фрагментов исходного текста веб-страниц) для последующего их отображения при поиске по базе данных
 * Поиск ключей-лемм по базе данных и отображение веб-страниц, в тексте которых встречаются соответствующие им слова в разных формах
 
-<h3 align="left">Стек технологий:</h3>
+### Стек технологий:
 * Java 17
 * Apache Maven 3.9.2
 * Hibernate ORM 6.2
@@ -40,7 +38,7 @@
 * Apache Lucene 1.5
 * MySQL 8.0.33
 
-<h3 align="left">Инструкция по развёртыванию приложения:</h3>
+### Инструкция по развёртыванию приложения:
 * Установите Apache Maven
 * Установите сервер MySQL
 * Создайте базу данных `search_engine`
@@ -52,21 +50,21 @@
 
 ![Application_yaml__Configuration__1.png](images/Application_yaml__Configuration__2.png)
 
-<h3 align="left">Использование приложения:</h3>
+### Использование приложения:
 * Запустите индексацию веб-сайтов
-```shell
-Run 'Application'
+```java
+⏵ Run 'Application'
 ```
 * Откройте в веб-браузере страницу http://localhost:8080
 * Дождитесь, пока указанные Вами сайты проиндексируются (в зависимости от количества веб-страниц на них, индексация может занять продолжительное время)
 * Осуществите поиск ключей-лемм по сформированной в результате индексации базе данных
 
-<h3 align="left">Управление приложением:</h3>
+### Управление приложением:
 * Нажатием на кнопку `START INDEXING` запускается индексация веб-сайтов, адреса которых указаны в файле `application.yaml`
 * Чтобы остановить индексацию, не дожидаясь её окончания, нажмите на кнопку `STOP INDEXING`
 * Кнопкой `ADD/UPDATE` запускается обновление индекса для введённой в поле `Add/update page` страницы веб-сайта (должен быть указан в файле `application.yaml`)
 
-<h3 align="left">Скриншоты примеров использования:</h3>
+### Скриншоты примеров использования:
 * Приложение в процессе индексации
 
 ![Application_yaml__Configuration__1.png](images/Pages_Indexing_in_Progress__2.png)
@@ -82,4 +80,3 @@ Run 'Application'
 ![Application_yaml__Configuration__1.png](images/Search_in_Index__Example__1.png)
 ![Application_yaml__Configuration__1.png](images/Search_in_Index__Example__2.png)
 
-<div align="center">&nbsp;</div>
